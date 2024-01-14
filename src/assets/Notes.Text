@@ -1,0 +1,33 @@
+Lecture:1 =>
+Lecture:2 =>
+Lecture:3 =>
+Lecture:4 => 
+Lecture:5 => 
+Lecture:6 => 
+Lecture:7 => 
+Lecture:8 => 
+Lecture:9 => Stying view Template
+Lecture:10 => Adding CSS Style Globally
+Lectuer:11 => Using Bootstrap for Styling 
+Lectuer:12 => Create Component using angular cli
+Lecture:13 => Types of component selector
+Lecture:14 => What is data binding 
+    Data binding is angular allow us to communicate between a component class and its corresponding view template & vice versa.
+        There are two types: One way and Two way data binding.
+            One way data binding : 
+                -Data flow from component to its view template 
+                    string interpolation, eg => {{data}}
+                    Property binding , eg => [property] = data
+                -Data flow from view template to Component
+                    Event binding (data)="expression"
+            Two way data binding:
+                -Data flow from component to its view template & at the same time, from view template to component class.
+        Interpolation vs Property Binding:
+            Interpolation is used to just display a piece of data in Html, such as displaying a title or a name.
+            Property binding let us bind a property of a DOM object, for example the hidden property, to some data value. This can let us show or hide a DOM element, or manipulate the DOM in some other way.
+
+Lecture:15 => String interpolation
+Lecture:16 => Property Binding 
+    Attribute: Represents the initial value and does not change
+    Property: Represents the current value and can change.
+Lecture:17 => 
